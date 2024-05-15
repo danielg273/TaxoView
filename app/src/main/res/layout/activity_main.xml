@@ -7,17 +7,17 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <!--        Este item es el usado para el recyclerView, por eso esta comentado-->
 
-    <androidx.cardview.widget.CardView
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="128dp" >
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        tools:layout_editor_absoluteX="1dp"-->
+<!--        tools:layout_editor_absoluteY="128dp" >-->
 
-<!--        Este item es el usado para el recyclerView, por eso esta comentado-->
 <!--        <androidx.constraintlayout.widget.ConstraintLayout-->
 <!--            android:layout_width="match_parent"-->
 <!--            android:layout_height="match_parent">-->
@@ -59,6 +59,6 @@
 <!--                app:layout_constraintTop_toBottomOf="@id/tvCardTittle"-->
 <!--                app:layout_constraintVertical_bias="0.2"/>-->
 
-        </androidx.constraintlayout.widget.ConstraintLayout>
-    </androidx.cardview.widget.CardView>
+<!--        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--    </androidx.cardview.widget.CardView>-->
 </androidx.constraintlayout.widget.ConstraintLayout>
